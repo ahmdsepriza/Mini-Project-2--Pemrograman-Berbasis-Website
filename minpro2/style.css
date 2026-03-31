@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background: #f4f6f8;
+    padding-top: 120px;
+}
+
+.badge-intro {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background: white;
+    font-size: 14px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    font-weight: 700aut;
+}
+
+.hero-desc {
+    color: #666;
+    max-width: 500px;
+}
+
+.btn-accent {
+    background: #00c896;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.btn-accent:hover {
+    background: #00b386;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.shape-accent {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: #00c896;
+    bottom: -30px;
+    right: -20px;
+    border-radius: 40px;
+    transform: rotate(-20deg);
+    z-index: 0;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-weight: 600;
+}
+
+.progress {
+    height: 8px;
+}
+
+@media (max-width: 992px) {
+    .hero-heading {
+        font-size: 36px;
+    }
+}
